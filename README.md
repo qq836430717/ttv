@@ -35,53 +35,6 @@ const SOURCES = [
 
 修改方式：编辑 `iptv-updater.js` 中的 `SOURCES` 数组
 
-## 📊 工作流程
-
-1. **采集** - 从多个源下载 M3U/TXT 文件
-2. **解析** - 提取频道名称和流媒体 URL
-3. **去重** - 按规范化名称去除重复频道
-4. **测活** - 对每条链接进行 HTTP 连接测试
-5. **分组** - 按频道名称自动分类
-6. **输出** - 生成两种格式文件
-7. **提交** - 自动 commit & push 到仓库
-
-## 🎯 分组规则
-
-脚本根据频道名称自动分类：
-
-| 分组 | 匹配关键词 |
-|------|----------|
-| 央视 | CCTV、央视 |
-| 地方卫视 | 卫视 |
-| 港澳台 | 凤凰、TVB、港澳、HK、MO、TW 等 |
-| 体育 | 体育、NBA、CBA、足球 等 |
-| 影视 | 电影、影视、CCTV-6 等 |
-| 纪录 | 纪录、探索、CCTV-9 等 |
-| 少儿 | 少儿、动画、CCTV-14 等 |
-| 地方台 | 其他地方频道 |
-
-## 💾 输出格式
-
-### live.m3u - 标准 M3U 格式
-
-兼容大多数 IPTV 播放器（如 VLC、Kodi、TiviMate 等）
-
-```
-#EXTM3U url-tvg="http://epg.51zmt.top:8000/api/diyp/"
-#EXTINF:-1 group-title="央视" tvg-name="CCTV-1" tvg-logo="",CCTV-1 综合
-https://example.com/stream
-```
-
-### live.txt - 简化 TXT 格式
-
-部分 IPTV 应用的兼容格式
-
-```
-央视,#genre#
-CCTV-1 综合,https://example.com/stream
-CCTV-2 财经,https://example.com/stream
-```
-
 ## 🔧 依赖要求
 
 - Node.js 20+
