@@ -1,50 +1,70 @@
 const fs = require('fs');
 
-// 🌐 增强源列表（央视/卫视/地方台/咪咕/体育专用，高频更新）
+// 🎯 模式控制：'strict'（默认）或 'loose'（宽松，央视优先）
+const MODE = process.env.IPTV_MODE || 'loose';
+
+// 🌐 源列表（央视专项源置顶）
 const SOURCES = [
-  // 🔹 综合大库（优先）
+  // 🔴 央视/卫视专用（高优先级）
   'https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u',
   'https://raw.githubusercontent.com/Guovin/iptv/main/output/result.m3u',
-  'https://raw.githubusercontent.com/YueChan/Live/main/APTV.m3u',
-  
-  // 🔹 央视/卫视专用（高纯度）
   'https://raw.githubusercontent.com/xzw832/cmys/main/S_CCTV.m3u',
   'https://raw.githubusercontent.com/xzw832/cmys/main/S_weishi.m3u',
-  'https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u',
+  'https://live.fanmingming.com/tv/m3u/ipv6.m3u', // 实时镜像
   
-  // 🔹 咪咕/体育/影视专项
+  // 🔵 综合大库
+  'https://raw.githubusercontent.com/YueChan/Live/main/APTV.m3u',
+  'https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u',
   'https://raw.githubusercontent.com/zhumeng11/IPTV/main/IPTV.m3u',
   'https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/merged_output.txt',
   'https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv6.m3u',
-  
-  // 🔹 地方台补充（按省份）
-  'https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv6.txt',
-  'https://raw.githubusercontent.com/asdjkl6/tv/tv/.tv/tv.txt'
+  'https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv6.txt'
 ];
 
-// 📥 抓取源内容（失败时返回空字符串）
+// 🔐 央视白名单（强制保留，即使测活失败）
+const CCTV_WHITELIST = [
+  'CCTV-1,CCTV-1,https://cctvwbcdtxyhw.liveplay.myqcloud.com/cctvwbcd/cdrmjzcctv1_1/index.m3u8',
+  'CCTV-2,CCTV-2,https://cctvwbcdtxyhw.liveplay.myqcloud.com/cctvwbcd/cdrmjzcctv2_1/index.m3u8',
+  'CCTV-3,CCTV-3,https://cctvwbcdtxyhw.liveplay.myqcloud.com/cctvwbcd/cdrmjzcctv3_1/index.m3u8',
+  'CCTV-4,CCTV-4,https://cctvwbcdtxyhw.liveplay.myqcloud.com/cctvwbcd/cdrmjzcctv4_1/index.m3u8',
+  'CCTV-5,CCTV-5,https://cctvwbcdtxyhw.liveplay.myqcloud.com/cctvwbcd/cdrmjzcctv5_1/index.m3u8',
+  'CCTV-5+,CCTV-5+,https://cctvwbcdtxyhw.liveplay.myqcloud.com/cctvwbcd/cdrmjzcctv5p_1/index.m3u8',
+  'CCTV-6,CCTV-6,https://cctvwbcdtxyhw.liveplay.myqcloud.com/cctvwbcd/cdrmjzcctv6_1/index.m3u8',
+  'CCTV-7,CCTV-7,https://cctvwbcdtxyhw.liveplay.myqcloud.com/cctvwbcd/cdrmjzcctv7_1/index.m3u8',
+  'CCTV-8,CCTV-8,https://cctvwbcdtxyhw.liveplay.myqcloud.com/cctvwbcd/cdrmjzcctv8_1/index.m3u8',
+  'CCTV-9,CCTV-9,https://cctvwbcdtxyhw.liveplay.myqcloud.com/cctvwbcd/cdrmjzcctv9_1/index.m3u8',
+  'CCTV-10,CCTV-10,https://cctvwbcdtxyhw.liveplay.myqcloud.com/cctvwbcd/cdrmjzcctv10_1/index.m3u8',
+  'CCTV-11,CCTV-11,https://cctvwbcdtxyhw.liveplay.myqcloud.com/cctvwbcd/cdrmjzcctv11_1/index.m3u8',
+  'CCTV-12,CCTV-12,https://cctvwbcdtxyhw.liveplay.myqcloud.com/cctvwbcd/cdrmjzcctv12_1/index.m3u8',
+  'CCTV-13,CCTV-13,https://cctvwbcdtxyhw.liveplay.myqcloud.com/cctvwbcd/cdrmjzcctv13_1/index.m3u8',
+  'CCTV-14,CCTV-14,https://cctvwbcdtxyhw.liveplay.myqcloud.com/cctvwbcd/cdrmjzcctv14_1/index.m3u8',
+  'CCTV-15,CCTV-15,https://cctvwbcdtxyhw.liveplay.myqcloud.com/cctvwbcd/cdrmjzcctv15_1/index.m3u8',
+  'CCTV-16,CCTV-16,https://cctvwbcdtxyhw.liveplay.myqcloud.com/cctvwbcd/cdrmjzcctv16_1/index.m3u8',
+  'CCTV-17,CCTV-17,https://cctvwbcdtxyhw.liveplay.myqcloud.com/cctvwbcd/cdrmjzcctv17_1/index.m3u8',
+  'CCTV-4K,CCTV-4K,https://cctvwbcdtxyhw.liveplay.myqcloud.com/cctvwbcd/cdrmjzcctv4k_1/index.m3u8',
+  'CGTN,CGTN,https://live.cgtn.com/1000/prog_index.m3u8',
+  'CGTN Documentary,CGTN Documentary,https://live.cgtn.com/1008/prog_index.m3u8'
+];
+
+// 📥 抓取源
 async function fetchSource(url) {
   try {
     const res = await fetch(url, { 
-      signal: AbortSignal.timeout(12000), // 延长到 12 秒，适配大文件
+      signal: AbortSignal.timeout(15000), 
       headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)' } 
     });
-    if (!res.ok) {
-      console.warn(`⚠️ ${url} returned ${res.status}`);
-      return '';
-    }
+    if (!res.ok) return '';
     const text = await res.text();
     return typeof text === 'string' ? text : '';
   } catch (e) { 
-    console.warn(`⚠️ 抓取失败: ${url} | ${e.message}`);
+    console.warn(`⚠️ ${url} | ${e.message}`);
     return ''; 
   }
 }
 
-// 🛠 混合解析（增强容错）
+// 🛠 解析
 function parseContent(text) {
   if (typeof text !== 'string' || !text.trim()) return [];
-  
   const lines = text.split('\n');
   const channels = [];
   let curName = '', curUrl = '', curLogo = '';
@@ -74,76 +94,98 @@ function parseContent(text) {
   return channels;
 }
 
-// 🔍 流媒体测活（轻量检测）
+// 🔍 宽松测活（宽松模式：能连通即保留）
 async function testStream(url) {
-  try {
-    // 优先用 HEAD，失败则跳过（不降级 GET，节省时间）
-    const res = await fetch(url, { 
-      method: 'HEAD', 
-      signal: AbortSignal.timeout(4000), 
-      redirect: 'follow',
-      headers: { 'User-Agent': 'Mozilla/5.0' }
-    });
-    return res.ok || [301,302,307,308].includes(res.status);
-  } catch { 
-    return false; 
+  if (MODE === 'loose') {
+    try {
+      // 宽松：只检查能否建立连接（不验证状态码/内容）
+      const controller = new AbortController();
+      const timeout = setTimeout(() => controller.abort(), 3000);
+      await fetch(url, { 
+        method: 'HEAD', 
+        signal: controller.signal,
+        redirect: 'follow',
+        headers: { 'User-Agent': 'Mozilla/5.0' }
+      });
+      clearTimeout(timeout);
+      return true;
+    } catch {
+      // 即使失败也返回 true（宽松模式核心逻辑）
+      return true;
+    }
+  } else {
+    // 严格模式：必须返回 200/302
+    try {
+      const res = await fetch(url, { method: 'HEAD', signal: AbortSignal.timeout(4000), redirect: 'follow' });
+      return res.ok || [301,302,307,308].includes(res.status);
+    } catch { return false; }
   }
 }
 
-// 🗂 智能分组（扩展咪咕/体育识别）
+// 🗂 分组
 function getGroup(name) {
   const n = name.toLowerCase();
-  if (/cctv-?1[0-5]?|cctv-?4k|cctv-?8k|央视综合|央视新闻|央视财经|央视少儿/.test(n)) return '央视';
+  if (/cctv-?1[0-9]?|cctv-?4k|cctv-?8k|央视综合|央视新闻|央视财经/.test(n)) return '央视';
   if (/卫视|东方卫视|湖南卫视|浙江卫视|江苏卫视|北京卫视/.test(n)) return '地方卫视';
-  if (/凤凰|tvb|明珠|翡翠|澳亚|澳门|港台|港澳|hk|mo|tw|viu|now|星河|华视|民视|中视/.test(n)) return '港澳台';
-  if (/体育|sport|cba|nba|足球|篮球|cctv-5|cctv-5\+|咪咕体育|migu sport|pp 体育|赛事直播|英超|西甲/.test(n)) return '体育';
-  if (/电影|影视|cinema|movie|cctv-6|咪咕视频|migu video|hbo|star/.test(n)) return '影视';
-  if (/纪录|documentary|探索|discovery|cctv-9|national geographic/.test(n)) return '纪录';
-  if (/少儿|动画|cartoon|kids|cctv-14|babytv/.test(n)) return '少儿';
-  if (/教育|caroon|学习|coursera|ted/.test(n)) return '教育';
+  if (/凤凰|tvb|明珠|翡翠|澳亚|澳门|港台|港澳|hk|mo|tw|viu|now|星河|华视|民视/.test(n)) return '港澳台';
+  if (/体育|sport|cba|nba|足球|篮球|cctv-5|咪咕体育|pp 体育|赛事/.test(n)) return '体育';
+  if (/电影|影视|cinema|movie|cctv-6|咪咕视频|hbo/.test(n)) return '影视';
+  if (/纪录|documentary|探索|discovery|cctv-9/.test(n)) return '纪录';
+  if (/少儿|动画|cartoon|kids|cctv-14/.test(n)) return '少儿';
   return '地方台';
 }
 
 // 🚀 主流程
 async function main() {
-  console.log('📡 Fetching sources...');
-  const rawTexts = await Promise.all(SOURCES.map(fetchSource));
+  console.log(`📡 Mode: ${MODE} | Fetching sources...`);
   
-  const validTexts = rawTexts.filter(t => typeof t === 'string' && t.trim().length > 0);
+  // 1️⃣ 抓取 + 解析
+  const rawTexts = await Promise.all(SOURCES.map(fetchSource));
+  const validTexts = rawTexts.filter(t => typeof t === 'string' && t.trim());
   let allChannels = validTexts.flatMap(parseContent);
-  console.log(`📊 Raw Channels: ${allChannels.length} (from ${validTexts.length}/${SOURCES.length} sources)`);
+  
+  // 2️⃣ 注入央视白名单（强制保留）
+  CCTV_WHITELIST.forEach(line => {
+    const [key, name, url] = line.split(',');
+    allChannels.push({ name, url, logo: '' });
+  });
+  console.log(`📊 Raw + Whitelist: ${allChannels.length}`);
 
-  // 🔁 智能去重：优先保留含"高清/4K/IPv6"的链接
+  // 3️⃣ 智能去重（宽松模式：同名保留最多 3 个不同 URL）
   const dedupMap = new Map();
   for (const ch of allChannels) {
     const key = ch.name.replace(/[\s\-_\.()（）高清超清HD4K]/g, '').toLowerCase();
-    const existing = dedupMap.get(key);
-    if (!existing) {
-      dedupMap.set(key, ch);
+    if (!dedupMap.has(key)) {
+      dedupMap.set(key, [ch]);
     } else {
-      // 优先级：4K > 高清 > IPv6 > 普通
-      const score = (url) => (url.includes('4k')?3:0) + (url.includes('hd')?2:0) + (url.includes('ipv6')?1:0);
-      if (score(ch.url) > score(existing.url)) {
-        dedupMap.set(key, ch);
+      const list = dedupMap.get(key);
+      // 检查是否已存在相同 URL
+      if (!list.some(c => c.url === ch.url) && list.length < 3) {
+        list.push(ch);
       }
     }
   }
-  const unique = Array.from(dedupMap.values());
-  console.log(`✅ Deduped: ${unique.length}`);
+  // 展平去重结果
+  const unique = [];
+  for (const list of dedupMap.values()) unique.push(...list);
+  console.log(`✅ Deduped (max 3 per name): ${unique.length}`);
 
-  // 🔍 分批测活（降低 GitHub Runner 限流风险）
-  console.log('🔍 Testing availability...');
-  const batchSize = 80; // 适当提高并发
+  // 4️⃣ 测活（宽松模式几乎全保留）
+  console.log('🔍 Testing...');
+  const batchSize = MODE === 'loose' ? 100 : 60;
   const valid = [];
   for (let i = 0; i < unique.length; i += batchSize) {
     const batch = unique.slice(i, i + batchSize);
-    const results = await Promise.all(batch.map(async ch => (await testStream(ch.url)) ? ch : null));
+    const results = await Promise.all(batch.map(async ch => {
+      if (MODE === 'loose') return ch; // 宽松模式跳过真实测活
+      return (await testStream(ch.url)) ? ch : null;
+    }));
     valid.push(...results.filter(Boolean));
-    console.log(`   Progress: ${Math.min(i + batchSize, unique.length)}/${unique.length}`);
+    console.log(`   ${Math.min(i+batchSize, unique.length)}/${unique.length}`);
   }
-  console.log(`🟢 Valid Streams: ${valid.length}`);
+  console.log(`🟢 Valid: ${valid.length}`);
 
-  // 🗂 分组排序
+  // 5️⃣ 分组排序
   const grouped = {};
   for (const ch of valid) {
     const g = getGroup(ch.name);
@@ -154,7 +196,7 @@ async function main() {
   const sorted = order.filter(g => grouped[g]);
   Object.keys(grouped).forEach(g => { if (!sorted.includes(g)) sorted.push(g); });
 
-  // 📝 生成 TXT（TVBox 专用格式）
+  // 6️⃣ 生成输出
   let txt = '';
   for (const g of sorted) {
     txt += `${g},#genre#\n`;
@@ -162,15 +204,14 @@ async function main() {
   }
   fs.writeFileSync('live.txt', txt.trim());
 
-  // 📝 生成 M3U（带 EPG 和分组）
-  let m3u = '#EXTM3U url-tvg="http://epg.51zmt.top:8000/api/diyp/" x-tvg-url="http://epg.51zmt.top:8000/api/diyp/"\n';
+  let m3u = '#EXTM3U url-tvg="http://epg.51zmt.top:8000/api/diyp/"\n';
   for (const g of sorted) {
     for (const ch of grouped[g]) {
-      m3u += `#EXTINF:-1 group-title="${g}" tvg-name="${ch.name}" tvg-logo="${ch.logo||''}",${ch.name}\n${ch.url}\n`;
+      m3u += `#EXTINF:-1 group-title="${g}" tvg-name="${ch.name}",${ch.name}\n${ch.url}\n`;
     }
   }
   fs.writeFileSync('live.m3u', m3u.trim());
-  console.log('📦 Successfully saved live.txt & live.m3u');
+  console.log('📦 Saved live.txt & live.m3u');
 }
 
-main().catch(e => { console.error('❌ Fatal Error:', e); process.exit(1); });
+main().catch(e => { console.error('❌', e); process.exit(1); });

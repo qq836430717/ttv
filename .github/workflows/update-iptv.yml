@@ -17,6 +17,8 @@ jobs:
           node-version: '20'
       - name: Run Updater
         run: node iptv-updater.js
+        env:
+          IPTV_MODE: loose
       - name: Commit & Push
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
