@@ -39,6 +39,9 @@ CCTV-17 (1080p),http://74.91.26.218:82/live/cctv17hd.m3u8
 CCTV-1 (720p),http://74.91.26.218:82/live/cctv1hd.m3u8
 CCTV-4K (1080p),http://198.204.240.250:82/live/cctv4k.m3u8
 CCTV-8K (1080p),http://198.204.240.250:82/live/cctv8k.m3u8
+CCTV-13,http://cjcrcb.top:65500/udp/238.125.0.189:5140
+CCTV13,http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000011000031108
+CCTV13,http://39.135.135.59/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226011/index.m3u8
 CCTV1,http://[2409:8087:5e00:24::10]:6060/200000001898/460000089800010144/
 CCTV14,http://[2409:8087:5e00:24::11]:6060/200000001898/460000089800010207/
 CCTV1,http://39.135.133.132/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226016/index.m3u8
@@ -51,9 +54,6 @@ CCTV-11,https://cctvwbcdtxyhw.liveplay.myqcloud.com/cctvwbcd/cdrmjzcctv11_1/inde
 CCTV12,http://[2409:8087:5e00:24::10]:6060/200000001898/460000089800010205/
 CCTV12,http://39.135.135.11/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225731/index.m3u8
 CCTV-12,https://cctvwbcdtxyhw.liveplay.myqcloud.com/cctvwbcd/cdrmjzcctv12_1/index.m3u8
-CCTV13,http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000011000031108
-CCTV13,http://39.135.135.59/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226011/index.m3u8
-CCTV-13,https://cctvwbcdtxyhw.liveplay.myqcloud.com/cctvwbcd/cdrmjzcctv13_1/index.m3u8
 CCTV15,http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000011000031109/
 CCTV15,http://39.134.65.87/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225601/index.m3u8
 CCTV-15,https://cctvwbcdtxyhw.liveplay.myqcloud.com/cctvwbcd/cdrmjzcctv15_1/index.m3u8
