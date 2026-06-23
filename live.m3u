@@ -1809,6 +1809,8 @@ http://183.207.248.71/gitv/live1/G_HEILONGJIANG/G_HEILONGJIANG
 http://183.207.248.71/cntv/live1/HD-2500k-1080P-heilongjiangstv/HD-2500k-1080P-heilongjiangstv
 #EXTINF:-1 group-title="地方台" tvg-name="CGTN (720p)",CGTN (720p)
 https://0472.org/hls/cgtn.m3u8
+#EXTINF:-1 group-title="地方台" tvg-name="CGTN Spanish (720p)",CGTN Spanish (720p)
+http://45.165.82.19/test/index.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="CCTV2",CCTV2
 http://[2409:8087:5e00:24::11]:6060/200000001898/460000089800010211/
 #EXTINF:-1 group-title="地方台" tvg-name="CCTV2",CCTV2
