@@ -922,6 +922,7 @@ CGTN (720p),https://0472.org/hls/cgtn.m3u8
 CGTN (720p),http://217.20.112.199:8080/cgtn/index.m3u8
 CGTN Spanish (720p),http://45.165.82.19/test/index.m3u8
 CND Film Middle School Channel,http://live-play.zxstv.com.cn/zhongxuesheng/zhongxuesheng.m3u8
+CND Film Middle School Channel,http://live2.rxip.sc96655.com/live/zxs_4000.m3u8?E=&U=&A=&K=&P=&S=
 CGTN Spanish (1080p),http://45.6.4.35/CGTN/index.m3u8
 CCTV2,http://[2409:8087:5e00:24::11]:6060/200000001898/460000089800010211/
 CCTV2,http://39.135.133.177/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225588/index.m3u8
