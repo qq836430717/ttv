@@ -61,6 +61,12 @@ http://198.204.240.250:82/live/cctv1.m3u8
 http://74.91.26.218:82/live/cctv14hd.m3u8
 #EXTINF:-1 group-title="央视" tvg-name="CCTV-1 (720p)",CCTV-1 (720p)
 http://74.91.26.218:82/live/cctv1hd.m3u8
+#EXTINF:-1 group-title="央视" tvg-name="CCTV-1",CCTV-1
+https://liveplay-srs.voc.com.cn/hls/tv/134_180adf.m3u8
+#EXTINF:-1 group-title="央视" tvg-name="CCTV1",CCTV1
+http://[2409:8087:5e00:24::10]:6060/200000001898/460000089800010144/
+#EXTINF:-1 group-title="央视" tvg-name="CCTV14",CCTV14
+http://[2409:8087:5e00:24::11]:6060/200000001898/460000089800010207/
 #EXTINF:-1 group-title="央视" tvg-name="CCTV-4K (1080p)",CCTV-4K (1080p)
 http://198.204.240.250:82/live/cctv4k.m3u8
 #EXTINF:-1 group-title="央视" tvg-name="CCTV-8K (1080p)",CCTV-8K (1080p)
@@ -95,12 +101,6 @@ http://74.91.26.218:82/live/cctv15hd.m3u8
 http://74.91.26.218:82/live/cctv16hd.m3u8
 #EXTINF:-1 group-title="央视" tvg-name="CCTV-17 (1080p)",CCTV-17 (1080p)
 http://74.91.26.218:82/live/cctv17hd.m3u8
-#EXTINF:-1 group-title="央视" tvg-name="CCTV-1",CCTV-1
-https://liveplay-srs.voc.com.cn/hls/tv/134_180adf.m3u8
-#EXTINF:-1 group-title="央视" tvg-name="CCTV1",CCTV1
-http://[2409:8087:5e00:24::10]:6060/200000001898/460000089800010144/
-#EXTINF:-1 group-title="央视" tvg-name="CCTV14",CCTV14
-http://[2409:8087:5e00:24::11]:6060/200000001898/460000089800010207/
 #EXTINF:-1 group-title="央视" tvg-name="CCTV10",CCTV10
 http://[2409:8087:5e00:24::11]:6060/200000001898/460000089800010203/
 #EXTINF:-1 group-title="央视" tvg-name="CCTV10",CCTV10
@@ -595,6 +595,8 @@ https://stream.hrbtv.net/yspd/playlist.m3u8
 https://play-live-hls.jxtvcn.com.cn/live-city/tv_jxtv4.m3u8
 #EXTINF:-1 group-title="港澳台" tvg-name="Jilin Movie Channel",Jilin Movie Channel
 https://lsfb.avap.jilintv.cn/zqvk7vpj/channel/906341e6f19b4c4bacdc89941eb85d12/index.m3u8
+#EXTINF:-1 group-title="港澳台" tvg-name="Nei Monggol TV (1080i) [Not 24/7]",Nei Monggol TV (1080i) [Not 24/7]
+http://play1-qk.nmtv.cn/live/1769652018126032.m3u8
 #EXTINF:-1 group-title="港澳台" tvg-name="Nei Monggol TV",Nei Monggol TV
 http://1.24.190.98:10080/hls/39/index.m3u8
 #EXTINF:-1 group-title="港澳台" tvg-name="Nei Monggol TV",Nei Monggol TV
@@ -615,8 +617,6 @@ http://223.110.245.167/ott.js.chinamobile.com/PLTV/3/224/3221226923/index.m3u8
 http://125.210.152.18:9090/live/FHZX_1200.m3u8
 #EXTINF:-1 group-title="港澳台" tvg-name="凤凰香港 (720p)",凤凰香港 (720p)
 http://223.110.245.136/PLTV/3/224/3221226975/index.m3u8
-#EXTINF:-1 group-title="港澳台" tvg-name="Nei Monggol TV (1080i) [Not 24/7]",Nei Monggol TV (1080i) [Not 24/7]
-http://play1-qk.nmtv.cn/live/1769652018126032.m3u8
 #EXTINF:-1 group-title="港澳台" tvg-name="凤凰中文",凤凰中文
 http://211.72.65.236:8577/.m3u8
 #EXTINF:-1 group-title="港澳台" tvg-name="凤凰中文",凤凰中文
@@ -1215,8 +1215,18 @@ http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/
 https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="CGTN (1080p)",CGTN (1080p)
 https://english-livebkali.cgtn.com/live/encgtn.m3u8
+#EXTINF:-1 group-title="地方台" tvg-name="CGTN (720p)",CGTN (720p)
+http://217.20.112.199:8080/cgtn/index.m3u8
+#EXTINF:-1 group-title="地方台" tvg-name="CGTN (720p)",CGTN (720p)
+https://0472.org/hls/cgtn.m3u8
+#EXTINF:-1 group-title="地方台" tvg-name="CGTN Spanish (720p)",CGTN Spanish (720p)
+http://45.165.82.19/test/index.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="Chifeng Comprehensive News Chanel",Chifeng Comprehensive News Chanel
 http://play1-qk.nmtv.cn/live/1735546697341033.m3u8
+#EXTINF:-1 group-title="地方台" tvg-name="CND Film Middle School Channel",CND Film Middle School Channel
+http://live2.rxip.sc96655.com/live/zxs_4000.m3u8?A=&E=&K=&P=&S=&U=
+#EXTINF:-1 group-title="地方台" tvg-name="CND Film Middle School Channel",CND Film Middle School Channel
+http://live-play.zxstv.com.cn/zhongxuesheng/zhongxuesheng.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="Foshan News TV",Foshan News TV
 http://dslive.grtn.cn/fszh/sd/live.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="Guangzhou TV",Guangzhou TV
@@ -1257,6 +1267,8 @@ http://video10.qtv.com.cn/drm/qtv4at/manifest.m3u8
 http://video10.qtv.com.cn/drm/qtv5at/manifest.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="QTV-6",QTV-6
 http://video10.qtv.com.cn/drm/qtv6at/manifest.m3u8
+#EXTINF:-1 group-title="地方台" tvg-name="Shaanxi Satelital TV",Shaanxi Satelital TV
+http://stream.snrtv.com/sxbc-star-cdxWY0.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="Shanghai Education Television Station",Shanghai Education Television Station
 http://223.166.234.114:7777/tsfile/live/1033_1.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="Shenzhen Satellite TV (2160p)",Shenzhen Satellite TV (2160p)
@@ -1809,18 +1821,6 @@ http://223.110.245.161/ott.js.chinamobile.com/PLTV/3/224/3221227492/index.m3u8
 http://183.207.248.71/gitv/live1/G_HEILONGJIANG/G_HEILONGJIANG
 #EXTINF:-1 group-title="地方台" tvg-name="黑龙江卫 (1080p)",黑龙江卫 (1080p)
 http://183.207.248.71/cntv/live1/HD-2500k-1080P-heilongjiangstv/HD-2500k-1080P-heilongjiangstv
-#EXTINF:-1 group-title="地方台" tvg-name="CGTN (720p)",CGTN (720p)
-https://0472.org/hls/cgtn.m3u8
-#EXTINF:-1 group-title="地方台" tvg-name="CGTN (720p)",CGTN (720p)
-http://217.20.112.199:8080/cgtn/index.m3u8
-#EXTINF:-1 group-title="地方台" tvg-name="CGTN Spanish (720p)",CGTN Spanish (720p)
-http://45.165.82.19/test/index.m3u8
-#EXTINF:-1 group-title="地方台" tvg-name="CND Film Middle School Channel",CND Film Middle School Channel
-http://live-play.zxstv.com.cn/zhongxuesheng/zhongxuesheng.m3u8
-#EXTINF:-1 group-title="地方台" tvg-name="CND Film Middle School Channel",CND Film Middle School Channel
-http://live2.rxip.sc96655.com/live/zxs_4000.m3u8?E=&U=&A=&K=&P=&S=
-#EXTINF:-1 group-title="地方台" tvg-name="CGTN Spanish (1080p)",CGTN Spanish (1080p)
-http://45.6.4.35/CGTN/index.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="CCTV2",CCTV2
 http://[2409:8087:5e00:24::11]:6060/200000001898/460000089800010211/
 #EXTINF:-1 group-title="地方台" tvg-name="CCTV2",CCTV2
