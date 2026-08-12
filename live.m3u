@@ -89,8 +89,6 @@ http://39.135.135.82/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225597/inde
 http://74.91.26.218:82/live/cctv12hd.m3u8
 #EXTINF:-1 group-title="央视" tvg-name="CCTV-13 (1080p)",CCTV-13 (1080p)
 http://go.bkpcp.top/mg/cctv13
-#EXTINF:-1 group-title="央视" tvg-name="CCTV-13 (1080p)",CCTV-13 (1080p)
-https://cdn3.163189.xyz/163189/cctv13
 #EXTINF:-1 group-title="央视" tvg-name="CCTV-13 (720p)",CCTV-13 (720p)
 http://74.91.26.218:82/live/cctv13hd.m3u8
 #EXTINF:-1 group-title="央视" tvg-name="CCTV-15 (1080p)",CCTV-15 (1080p)
@@ -523,8 +521,6 @@ http://39.134.115.163:8080/PLTV/88888910/224/3221225729/index.m3u8
 http://223.110.245.139/PLTV/4/224/3221227022/index.m3u8
 #EXTINF:-1 group-title="地方卫视" tvg-name="陕西卫视 (540p)",陕西卫视 (540p)
 http://112.25.48.68/live/program/live/sxws/1300000/mnf.m3u8
-#EXTINF:-1 group-title="地方卫视" tvg-name="青海卫视 (1080p)",青海卫视 (1080p)
-http://live.geermurmt.com/qhws/sd/live.m3u8
 #EXTINF:-1 group-title="地方卫视" tvg-name="青海卫视 (576p)",青海卫视 (576p)
 http://39.134.115.163:8080/PLTV/88888910/224/3221225727/index.m3u8
 #EXTINF:-1 group-title="地方卫视" tvg-name="青海卫视 (540p)",青海卫视 (540p)
@@ -601,6 +597,8 @@ http://play1-qk.nmtv.cn/live/1769652018126032.m3u8
 http://1.24.190.98:10080/hls/39/index.m3u8
 #EXTINF:-1 group-title="港澳台" tvg-name="Nei Monggol TV",Nei Monggol TV
 http://110.19.156.172:9901/tsfile/live/1003_1.m3u8
+#EXTINF:-1 group-title="港澳台" tvg-name="Nei Monggol TV 2 Mongolian Culture Channel (1080i) [Not 24/7]",Nei Monggol TV 2 Mongolian Culture Channel (1080i) [Not 24/7]
+http://play1-qk.nmtv.cn/live/1769652109096027.m3u8
 #EXTINF:-1 group-title="港澳台" tvg-name="Nei Monggol TV 2 Mongolian Culture Channel",Nei Monggol TV 2 Mongolian Culture Channel
 http://1.24.190.98:10080/hls/40/index.m3u8
 #EXTINF:-1 group-title="港澳台" tvg-name="凤凰中文 (720p)",凤凰中文 (720p)
@@ -617,8 +615,6 @@ http://223.110.245.167/ott.js.chinamobile.com/PLTV/3/224/3221226923/index.m3u8
 http://125.210.152.18:9090/live/FHZX_1200.m3u8
 #EXTINF:-1 group-title="港澳台" tvg-name="凤凰香港 (720p)",凤凰香港 (720p)
 http://223.110.245.136/PLTV/3/224/3221226975/index.m3u8
-#EXTINF:-1 group-title="港澳台" tvg-name="Nei Monggol TV 2 Mongolian Culture Channel (1080i) [Not 24/7]",Nei Monggol TV 2 Mongolian Culture Channel (1080i) [Not 24/7]
-http://play1-qk.nmtv.cn/live/1769652109096027.m3u8
 #EXTINF:-1 group-title="港澳台" tvg-name="凤凰中文",凤凰中文
 http://211.72.65.236:8577/.m3u8
 #EXTINF:-1 group-title="港澳台" tvg-name="凤凰中文",凤凰中文
@@ -763,6 +759,8 @@ http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221
 http://tv.20191209.xyz:37377/migu/641886773.m3u8?migutoken=dfc218ce4c1ff00475c0aef03e0b883bf8a277b36671d5ca1eb7cc5f7ce7919d01ee050351170891d6e103aa7adea25827c13c901ccf6cdf4a8a370e7fd90c8b198dcb1e8814bbf2ed4fb0c8
 #EXTINF:-1 group-title="体育" tvg-name="CCTV-5+ 体育赛事",CCTV-5+ 体育赛事
 http://148.135.93.213:81/live.php?id=CCTV5p
+#EXTINF:-1 group-title="体育" tvg-name="CCTV-5+",CCTV-5+
+https://myip.pdtvhd.com/Sports/streams/CCTV5pul.m3u8
 #EXTINF:-1 group-title="体育" tvg-name="五星体育 (720p)",五星体育 (720p)
 http://223.110.245.147/ott.js.chinamobile.com/PLTV/3/224/3221226799/index.m3u8
 #EXTINF:-1 group-title="体育" tvg-name="山东体育 (1080p) [Geo-blocked]",山东体育 (1080p) [Geo-blocked]
@@ -785,8 +783,6 @@ http://112.25.48.68/live/program/live/hdnba5/4000000/mnf.m3u8
 http://112.25.48.68/live/program/live/hdnba7/4000000/mnf.m3u8
 #EXTINF:-1 group-title="体育" tvg-name="篮球资讯 (576p)",篮球资讯 (576p)
 http://223.110.245.139/PLTV/4/224/3221227023/index.m3u8
-#EXTINF:-1 group-title="体育" tvg-name="CCTV-5+",CCTV-5+
-https://myip.pdtvhd.com/Sports/streams/CCTV5pul.m3u8
 #EXTINF:-1 group-title="体育" tvg-name="CCTV-5",CCTV-5
 https://cctvwbcdtxyhw.liveplay.myqcloud.com/cctvwbcd/cdrmjzcctv5_1/index.m3u8
 #EXTINF:-1 group-title="体育" tvg-name="风云足球",风云足球
@@ -861,6 +857,8 @@ http://148.135.93.213:81/live.php?id=CCTV6
 http://69.30.245.50/live/cctv6.m3u8
 #EXTINF:-1 group-title="影视" tvg-name="CCTV-6 (1080p)",CCTV-6 (1080p)
 http://198.204.240.250:82/live/cctv6.m3u8
+#EXTINF:-1 group-title="影视" tvg-name="CCTV-6 [Geo-blocked]",CCTV-6 [Geo-blocked]
+https://live.eac-news.com/CCTV/streams/cctv6.m3u8
 #EXTINF:-1 group-title="影视" tvg-name="万州影视 (576p) [Not 24/7]",万州影视 (576p) [Not 24/7]
 http://123.146.162.24:8013/tslslive/vWlnEzU/hls/live_sd.m3u8
 #EXTINF:-1 group-title="影视" tvg-name="动作电影 (1080p)",动作电影 (1080p)
@@ -891,8 +889,6 @@ http://183.207.248.71/cntv/live1/jdianying/jdianying
 http://stream2.xiancity.cn/xatv4/playlist.m3u8
 #EXTINF:-1 group-title="影视" tvg-name="高清电影 (1080p)",高清电影 (1080p)
 http://39.134.19.76/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226463/index.m3u8
-#EXTINF:-1 group-title="影视" tvg-name="CCTV-6 [Geo-blocked]",CCTV-6 [Geo-blocked]
-https://live.eac-news.com/CCTV/streams/cctv6.m3u8
 #EXTINF:-1 group-title="影视" tvg-name="CCTV-6",CCTV-6
 https://cctvwbcdtxyhw.liveplay.myqcloud.com/cctvwbcd/cdrmjzcctv6_1/index.m3u8
 #EXTINF:-1 group-title="影视" tvg-name="CHC动作电影",CHC动作电影
@@ -1187,6 +1183,8 @@ https://0472.org/hls/cgtnx.m3u8
 https://0472.org/hls/cgtna.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="Ando TV (1080p)",Ando TV (1080p)
 http://play.kankanlive.com/live/1711956137852982.m3u8
+#EXTINF:-1 group-title="地方台" tvg-name="Anhui TV",Anhui TV
+https://restream.pdtvhd.com/memfs/c1cd2ed0-3b2b-4c25-af98-a7fb0b1eb130.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="Anshun Comprehensive News Channel",Anshun Comprehensive News Channel
 https://hplayer1.juyun.tv/camera/154379194.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="Beijing Traffic Radio TV [Geo-blocked]",Beijing Traffic Radio TV [Geo-blocked]
@@ -1203,6 +1201,10 @@ http://74.91.26.218:82/live/cctv2hd.m3u8
 http://74.91.26.218:82/live/cctv3hd.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="CCTV-4 Asia (720p)",CCTV-4 Asia (720p)
 http://74.91.26.218:82/live/cctv4hd.m3u8
+#EXTINF:-1 group-title="地方台" tvg-name="CCTV5+",CCTV5+
+http://[2409:8087:5e00:24::10]:6060/200000001898/460000089800010202/
+#EXTINF:-1 group-title="地方台" tvg-name="CCTV5+",CCTV5+
+http://39.134.65.71/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225603/index.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="CCTV-7 (720p)",CCTV-7 (720p)
 http://74.91.26.218:82/live/cctv7hd.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="CCTV-8 (720p)",CCTV-8 (720p)
@@ -1220,9 +1222,9 @@ https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="CGTN (1080p)",CGTN (1080p)
 https://english-livebkali.cgtn.com/live/encgtn.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="CGTN (720p)",CGTN (720p)
-http://217.20.112.199:8080/cgtn/index.m3u8
-#EXTINF:-1 group-title="地方台" tvg-name="CGTN (720p)",CGTN (720p)
 https://0472.org/hls/cgtn.m3u8
+#EXTINF:-1 group-title="地方台" tvg-name="CGTN French (1080p)",CGTN French (1080p)
+http://145.239.5.177/214/index.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="CGTN Spanish (720p)",CGTN Spanish (720p)
 http://45.165.82.19/test/index.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="Chifeng Comprehensive News Chanel",Chifeng Comprehensive News Chanel
@@ -1231,6 +1233,8 @@ http://play1-qk.nmtv.cn/live/1735546697341033.m3u8
 http://live2.rxip.sc96655.com/live/zxs_4000.m3u8?A=&E=&K=&P=&S=&U=
 #EXTINF:-1 group-title="地方台" tvg-name="CND Film Middle School Channel",CND Film Middle School Channel
 http://live-play.zxstv.com.cn/zhongxuesheng/zhongxuesheng.m3u8
+#EXTINF:-1 group-title="地方台" tvg-name="Dragon TV International",Dragon TV International
+https://restream.pdtvhd.com/memfs/0b1b95c9-3543-4af9-9fdb-cf45f1602f17.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="Foshan News TV",Foshan News TV
 http://dslive.grtn.cn/fszh/sd/live.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="Guangzhou TV",Guangzhou TV
@@ -1239,8 +1243,12 @@ https://tencentplaybusiness.gztv.com/live/zonghes.m3u8
 https://stream.hrbtv.net/xwzh/playlist.m3u8?_upt=ef41dd531755913594
 #EXTINF:-1 group-title="地方台" tvg-name="Hebei TV (2160p)",Hebei TV (2160p)
 https://event.pull.hebtv.com/live/live101.m3u8
+#EXTINF:-1 group-title="地方台" tvg-name="Hebei TV",Hebei TV
+https://restream.pdtvhd.com/memfs/1db8c005-9365-4b32-94a4-3736987b5646.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="Hunan TV (2160p)",Hunan TV (2160p)
 http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
+#EXTINF:-1 group-title="地方台" tvg-name="Jiangsu Public & News Channel",Jiangsu Public & News Channel
+https://jiangning-tv-playing-t.cm.jstv.com/jiangning-tv/jnxwzh.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="Jiangxi Children's Channel",Jiangxi Children's Channel
 https://play-live-hls.jxtvcn.com.cn/live-city/tv_jxtv6.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="Jiangxi City Channel",Jiangxi City Channel
@@ -1255,10 +1263,16 @@ https://lsfb.avap.jilintv.cn/zqvk7vpj/channel/7e8474e6daea44ccaa5aa2300191439e/i
 https://lsfb.avap.jilintv.cn/zqvk7vpj/channel/0a76740c72b74fabae611845aa21e06a/index.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="Jilin Rural Channel",Jilin Rural Channel
 https://lsfb.avap.jilintv.cn/zqvk7vpj/channel/3ffc4824dce54b92be185555923ce382/index.m3u8
+#EXTINF:-1 group-title="地方台" tvg-name="Lanzhou Comprehensive News Channel",Lanzhou Comprehensive News Channel
+https://liveplus.lzr.com.cn/xwzh/HD/live.m3u8
+#EXTINF:-1 group-title="地方台" tvg-name="Lanzhou Culture & Tourism Channel",Lanzhou Culture & Tourism Channel
+https://liveplus.lzr.com.cn/wlpd/HD/live.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="Liangshan TV [Not 24/7]",Liangshan TV [Not 24/7]
 http://118.122.2.29:9999/hls/47/index.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="Nanchang News & Generalist Channel",Nanchang News & Generalist Channel
 https://play-live-hls.jxtvcn.com.cn/live-city/tv_nanchang.m3u8
+#EXTINF:-1 group-title="地方台" tvg-name="Qinghai TV",Qinghai TV
+https://hls-qhmh.lanzhousobey.cn/qhmh/mhds.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="QTV-1",QTV-1
 http://video10.qtv.com.cn/drm/qtv1at/manifest.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="QTV-2",QTV-2
@@ -1271,18 +1285,10 @@ http://video10.qtv.com.cn/drm/qtv4at/manifest.m3u8
 http://video10.qtv.com.cn/drm/qtv5at/manifest.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="QTV-6",QTV-6
 http://video10.qtv.com.cn/drm/qtv6at/manifest.m3u8
-#EXTINF:-1 group-title="地方台" tvg-name="Shaanxi Satelital TV",Shaanxi Satelital TV
-http://stream.snrtv.com/sxbc-star-cdxWY0.m3u8
-#EXTINF:-1 group-title="地方台" tvg-name="Shanghai Education Television Station",Shanghai Education Television Station
-http://223.166.234.114:7777/tsfile/live/1033_1.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="Shenzhen Satellite TV (2160p)",Shenzhen Satellite TV (2160p)
 https://livepull-tcms.sztv.com.cn/live/sz4Kpgm.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="Siping TV",Siping TV
 http://stream2.jlntv.cn/sptv/sd/live.m3u8?_upt=f27750421743154598
-#EXTINF:-1 group-title="地方台" tvg-name="STV City",STV City
-http://61.173.144.157:9901/tsfile/live/1001_1.m3u8?authid=0&key=txiptv&playlive=1
-#EXTINF:-1 group-title="地方台" tvg-name="STV News and General",STV News and General
-http://61.173.144.157:9901/tsfile/live/1000_1.m3u8?authid=0&key=txiptv&playlive=1
 #EXTINF:-1 group-title="地方台" tvg-name="Tonghua TV (1080p)",Tonghua TV (1080p)
 http://lsfb.avap.jilintv.cn/zqvk7vpj/channel/43ea5771aa44421591f9dfd2b71f1b9b/index.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="Tonghua TV (1080p)",Tonghua TV (1080p)
@@ -1291,8 +1297,6 @@ https://lsfb.avap.jilintv.cn/zqvk7vpj/channel/43ea5771aa44421591f9dfd2b71f1b9b/i
 https://voa-ingest.akamaized.net/hls/live/2033878/tvmc08/playlist.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="Xinjiang TV 1",Xinjiang TV 1
 https://klmysjtzb.rcsxzx.com/hls/klmy2.m3u8
-#EXTINF:-1 group-title="地方台" tvg-name="Xinjiang TV 1",Xinjiang TV 1
-https://p8.vzan.com/218800995/242196610130883766/live.m3u8?zbid=218800995&tpid=208366456
 #EXTINF:-1 group-title="地方台" tvg-name="Xinjiang TV 2",Xinjiang TV 2
 http://110.153.180.106:55555/out_3/index.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="Xinjiang TV 2",Xinjiang TV 2
@@ -1309,8 +1313,6 @@ http://218.84.35.38:3000/m3u8/live/tctv-2/index.m3u8
 http://120.70.60.179:9901/tsfile/live/1002_1.m3u8?authid=0&key=txiptv&playlive=1
 #EXTINF:-1 group-title="地方台" tvg-name="Xizang TV Tibetan (720p) [Not 24/7]",Xizang TV Tibetan (720p) [Not 24/7]
 http://php.jdshipin.com:8880/xztv.php?id=zy
-#EXTINF:-1 group-title="地方台" tvg-name="Zhejiang Satellite TV",Zhejiang Satellite TV
-https://play-qukan.cztv.com/live/1758879019692345.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="Zhejiang TV International",Zhejiang TV International
 https://ali-m-l.cztv.com/channels/lantian/channel10/1080p.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="万州三峡移民 (576p) [Not 24/7]",万州三峡移民 (576p) [Not 24/7]
@@ -1357,10 +1359,6 @@ https://l.cztvcloud.com/channels/lantian/SXyuyao3/720p.m3u8
 https://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="兴隆综合",兴隆综合
 https://jwcdnqx.hebyun.com.cn/live/xlzh/1500k/tzwj_video.m3u8
-#EXTINF:-1 group-title="地方台" tvg-name="内江公共 (720p)",内江公共 (720p)
-http://njzb.scnj.tv:90/live/gggy_gggy800.m3u8
-#EXTINF:-1 group-title="地方台" tvg-name="内江科教 (720p)",内江科教 (720p)
-http://njzb.scnj.tv:90/live/kjpd_kjpd800.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="内蒙古 (576p)",内蒙古 (576p)
 http://223.110.245.161/ott.js.chinamobile.com/PLTV/3/224/3221225836/index.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="农安新闻综合 [Geo-blocked]",农安新闻综合 [Geo-blocked]
@@ -1431,8 +1429,6 @@ http://scgctvshow.sctv.com/hdlive/sctv6/index.m3u8
 http://m3u8.channellive.dzxw.net/cms/videos/nmip-media/channellive/channel36/playlist.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="四川 Ⅰ 达州综合台 (720p) [Not 24/7]",四川 Ⅰ 达州综合台 (720p) [Not 24/7]
 http://m3u8.channellive.dzxw.net/cms/videos/nmip-media/channellive/channel35/playlist.m3u8
-#EXTINF:-1 group-title="地方台" tvg-name="四川公共 (720p)",四川公共 (720p)
-http://scgctvshow.sctv.com/hdlive/sctv9/index.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="四川妇女儿童 (720p) [Not 24/7]",四川妇女儿童 (720p) [Not 24/7]
 http://scgctvshow.sctv.com/hdlive/sctv7/index.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="四平新闻综合 [Geo-blocked]",四平新闻综合 [Geo-blocked]
@@ -1527,8 +1523,6 @@ http://223.110.245.165/ott.js.chinamobile.com/PLTV/3/224/3221225945/index.m3u8
 http://223.110.245.167/ott.js.chinamobile.com/PLTV/3/224/3221225947/index.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="徐州贾汪旅游 (576p)",徐州贾汪旅游 (576p)
 http://223.110.245.147/ott.js.chinamobile.com/PLTV/3/224/3221227389/index.m3u8
-#EXTINF:-1 group-title="地方台" tvg-name="房山电视台 (576p)",房山电视台 (576p)
-https://live.funhillrm.com/2/playlist.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="抚州公共 (270p)",抚州公共 (270p)
 http://111.75.179.195:30767/video/live_vide2.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="撫州綜合頻道 (270p) [Not 24/7]",撫州綜合頻道 (270p) [Not 24/7]
@@ -1561,8 +1555,6 @@ http://live.dxhmt.cn:9081/tv/10184-1.m3u8
 http://218.202.220.2:5000/nn_live.ts?id=STARTV
 #EXTINF:-1 group-title="地方台" tvg-name="晋中公共 (1080p) [Not 24/7]",晋中公共 (1080p) [Not 24/7]
 http://jzlive.jztvnews.com:90/live/jzgg.m3u8
-#EXTINF:-1 group-title="地方台" tvg-name="晋中综合 (1080p)",晋中综合 (1080p)
-http://jzlive.jztvnews.com:90/live/jzzh.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="景县电视一套 (576p) [Not 24/7]",景县电视一套 (576p) [Not 24/7]
 http://hbjx.chinashadt.com:1935/live/jx1.stream/playlist.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="景县电视一套 (360p) [Not 24/7]",景县电视一套 (360p) [Not 24/7]
@@ -1611,8 +1603,6 @@ http://121.19.134.246:808/hls/21/index.m3u8
 http://avd.iptviptv.site:9694/hls/551/index.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="河源综合 (540p)",河源综合 (540p)
 https://tmpstream.hyrtv.cn/xwzh/sd/live.m3u8
-#EXTINF:-1 group-title="地方台" tvg-name="洪雅新闻综合 (1080p)",洪雅新闻综合 (1080p)
-http://117.172.215.250:8083/videos/live/35/39/GQVbrgob5CGJM/GQVbrgob5CGJM.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="浙江 Ⅰ 绍兴综合 (576p)",浙江 Ⅰ 绍兴综合 (576p)
 http://live.shaoxing.com.cn/video/s10001-sxtv1/index.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="浙江公共 (1080p) [Not 24/7]",浙江公共 (1080p) [Not 24/7]
@@ -1639,12 +1629,6 @@ http://live.cztv.cc:85/live/sjpd.m3u8
 http://183.167.193.45:1935/live/cztvzh/playlist.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="滁州科教 (450p)",滁州科教 (450p)
 http://183.167.193.45:1935/live/cztvkj/playlist.m3u8
-#EXTINF:-1 group-title="地方台" tvg-name="滨州公共电视剧 (576p)",滨州公共电视剧 (576p)
-http://stream.bzcm.net/1/sd/live.m3u8
-#EXTINF:-1 group-title="地方台" tvg-name="滨州新闻综合 (576p)",滨州新闻综合 (576p)
-http://stream.bzcm.net/2/sd/live.m3u8
-#EXTINF:-1 group-title="地方台" tvg-name="滨州测试 (576p)",滨州测试 (576p)
-http://stream.bzcm.net/4/sd/live.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="滨海新闻 (1080p)",滨海新闻 (1080p)
 http://60.30.52.41/live/bhtv1/playlist.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="滨海都市 (1080p)",滨海都市 (1080p)
@@ -1715,12 +1699,6 @@ http://223.110.245.161/ott.js.chinamobile.com/PLTV/3/224/3221227037/index.m3u8
 http://202.69.67.66:443/webcast/bshdlive-mobile/playlist.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="肃州电视台 (1080p)",肃州电视台 (1080p)
 http://117.156.28.119/270000001111/1110000123/index.m3u8
-#EXTINF:-1 group-title="地方台" tvg-name="芜湖公共 (576p)",芜湖公共 (576p)
-http://live1.wuhubtv.com/channel3/sd/live.m3u8
-#EXTINF:-1 group-title="地方台" tvg-name="芜湖新闻综合 (576p)",芜湖新闻综合 (576p)
-http://live1.wuhubtv.com/channel1/sd/live.m3u8
-#EXTINF:-1 group-title="地方台" tvg-name="芜湖生活 (576p)",芜湖生活 (576p)
-http://live1.wuhubtv.com/channel2/sd/live.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="荣昌综合 (404p) [Not 24/7]",荣昌综合 (404p) [Not 24/7]
 http://183.64.181.25:40023/rongchang01.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="莒縣圖文頻道 (720p)",莒縣圖文頻道 (720p)
@@ -1739,8 +1717,6 @@ http://www.pxitv.com:8099/hls-live/livepkgr/_definst_/pxitvevent/pxtv1stream.m3u
 https://l.cztvcloud.com/channels/lantian/SXxiaoshan1/720p.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="蓬安新闻综合 (720p) [Not 24/7]",蓬安新闻综合 (720p) [Not 24/7]
 http://palive.patv123.com:8091/live/xwpd_800K.m3u8
-#EXTINF:-1 group-title="地方台" tvg-name="蕪湖教育頻道 (576p)",蕪湖教育頻道 (576p)
-http://live1.wuhubtv.com/channel4/sd/live.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="蕭山生活頻道 (720p) [Not 24/7]",蕭山生活頻道 (720p) [Not 24/7]
 https://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="西安丝路 (404p) [Not 24/7]",西安丝路 (404p) [Not 24/7]
@@ -1829,26 +1805,6 @@ http://223.110.245.161/ott.js.chinamobile.com/PLTV/3/224/3221227492/index.m3u8
 http://183.207.248.71/gitv/live1/G_HEILONGJIANG/G_HEILONGJIANG
 #EXTINF:-1 group-title="地方台" tvg-name="黑龙江卫 (1080p)",黑龙江卫 (1080p)
 http://183.207.248.71/cntv/live1/HD-2500k-1080P-heilongjiangstv/HD-2500k-1080P-heilongjiangstv
-#EXTINF:-1 group-title="地方台" tvg-name="CGTN French (1080p)",CGTN French (1080p)
-http://145.239.5.177/214/index.m3u8
-#EXTINF:-1 group-title="地方台" tvg-name="Lanzhou Comprehensive News Channel",Lanzhou Comprehensive News Channel
-https://liveplus.lzr.com.cn/xwzh/HD/live.m3u8
-#EXTINF:-1 group-title="地方台" tvg-name="Lanzhou Culture & Tourism Channel",Lanzhou Culture & Tourism Channel
-https://liveplus.lzr.com.cn/wlpd/HD/live.m3u8
-#EXTINF:-1 group-title="地方台" tvg-name="Qinghai TV",Qinghai TV
-https://hls-qhmh.lanzhousobey.cn/qhmh/mhds.m3u8
-#EXTINF:-1 group-title="地方台" tvg-name="Jiangsu Public & News Channel",Jiangsu Public & News Channel
-https://jiangning-tv-playing-t.cm.jstv.com/jiangning-tv/jnxwzh.m3u8
-#EXTINF:-1 group-title="地方台" tvg-name="Anhui TV",Anhui TV
-https://restream.pdtvhd.com/memfs/c1cd2ed0-3b2b-4c25-af98-a7fb0b1eb130.m3u8
-#EXTINF:-1 group-title="地方台" tvg-name="Dragon TV International",Dragon TV International
-https://restream.pdtvhd.com/memfs/0b1b95c9-3543-4af9-9fdb-cf45f1602f17.m3u8
-#EXTINF:-1 group-title="地方台" tvg-name="Hebei TV",Hebei TV
-https://restream.pdtvhd.com/memfs/1db8c005-9365-4b32-94a4-3736987b5646.m3u8
-#EXTINF:-1 group-title="地方台" tvg-name="CCTV5+",CCTV5+
-http://[2409:8087:5e00:24::10]:6060/200000001898/460000089800010202/
-#EXTINF:-1 group-title="地方台" tvg-name="CCTV5+",CCTV5+
-http://39.134.65.71/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225603/index.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="CCTV2",CCTV2
 http://[2409:8087:5e00:24::11]:6060/200000001898/460000089800010211/
 #EXTINF:-1 group-title="地方台" tvg-name="CCTV2",CCTV2
