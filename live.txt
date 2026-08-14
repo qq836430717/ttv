@@ -171,9 +171,6 @@ CCTV-17,https://cctvwbcdtxyhw.liveplay.myqcloud.com/cctvwbcd/cdrmjzcctv17_1/inde
 蒙语卫视,https://livestream-bt.nmtv.cn/nmtv/2315general.m3u8?txSecret=4971666599ef9411629213c9a300bf66&txTime=771EF880
 BRTV 北京卫视 (1080p),http://go.bkpcp.top/mg/bjws
 BRTV 北京卫视 [Not 24/7],http://ivi.bupt.edu.cn/hls/btv1.m3u8
-BRTV 北京卫视,http://118.81.195.79:9003/hls/20/index.m3u8
-东南卫视 (Southeast Television fka Fujian Television) (2160p),http://118.81.195.79:9003/hls/24/index.m3u8
-东方卫视 (2160p),http://118.81.195.79:9003/hls/23/index.m3u8
 云南卫视 (1080p),https://hwapi.yunshicloud.com/8xughf/e0bx15.m3u8
 云南卫视 (576p) [Not 24/7],http://183.207.248.71/cntv/live1/yunnanstv/yunnanstv
 云南卫视 (576p),http://39.134.115.163:8080/PLTV/88888910/224/3221225664/index.m3u8
@@ -186,7 +183,6 @@ BRTV 北京卫视,http://118.81.195.79:9003/hls/20/index.m3u8
 内蒙古卫视 (576p),http://183.207.248.71/gitv/live1/G_NEIMENGGU/G_NEIMENGGU
 厦门卫视 (576p),http://223.110.245.159/ott.js.chinamobile.com/PLTV/3/224/3221226996/index.m3u8
 厦门卫视 (540p) [Not 24/7],http://112.25.48.68/live/program/live/xmws/1300000/mnf.m3u8
-吉林卫视 (2160p),http://118.81.195.79:9003/hls/34/index.m3u8
 四川卫视 (576p),http://39.134.115.163:8080/PLTV/88888910/224/3221225733/index.m3u8
 四川卫视 (576p),http://183.207.248.71/gitv/live1/SCWS/SCWS
 四川卫视 (576p),http://223.110.245.145/ott.js.chinamobile.com/PLTV/3/224/3221225814/index.m3u8
@@ -208,9 +204,6 @@ BRTV 北京卫视,http://118.81.195.79:9003/hls/20/index.m3u8
 山东卫视 (720p),http://125.210.152.18:9090/live/SDWSHD_H265.m3u8
 山东卫视 (576p),http://183.207.248.71/gitv/live1/SDWS/SDWS
 山东卫视 (576p),http://223.110.245.149/ott.js.chinamobile.com/PLTV/3/224/3221225804/index.m3u8
-山西卫视 (2160p),http://118.81.195.79:9003/hls/19/index.m3u8
-广东卫视 (2160p),http://118.81.195.79:9003/hls/26/index.m3u8
-广西卫视 (576p),http://118.81.195.79:9003/hls/27/index.m3u8
 康巴卫视 (720p) [Not 24/7],http://scgctvshow.sctv.com/hdlive/kangba/1.m3u8
 康巴卫视 (576p),http://223.110.245.139/PLTV/4/224/3221227008/index.m3u8
 延边卫视 (576p),http://223.110.245.139/PLTV/4/224/3221227002/index.m3u8
@@ -231,18 +224,14 @@ BRTV 北京卫视,http://118.81.195.79:9003/hls/20/index.m3u8
 江西卫视 (576p),http://183.207.248.71/gitv/live1/JXWS/JXWS
 江西卫视 (576p),http://183.207.249.15/PLTV/4/224/3221225798/index.m3u8
 江西卫视 (360p),http://125.210.152.18:9090/live/JXWSHD_H265.m3u8
-河北卫视 (2160p),http://118.81.195.79:9003/hls/29/index.m3u8
-河南卫视 (2160p),http://118.81.195.79:9003/hls/30/index.m3u8
 浙江卫视 (1080p),http://39.134.115.163:8080/PLTV/88888910/224/3221225703/index.m3u8
 浙江卫视 (1080p),http://39.134.115.163:8080/PLTV/88888910/224/3221225744/index.m3u8
 浙江卫视 (1080p),http://112.25.48.68/live/program/live/zjwshd/4000000/mnf.m3u8
 浙江卫视 (576p),http://183.207.248.71/gitv/live1/G_ZHEJIANG/G_ZHEJIANG
-海南卫视 (576p),http://118.81.195.79:9003/hls/28/index.m3u8
 深圳卫视 (1080p) [Not 24/7],http://183.207.248.71/cntv/live1/HD-2500k-1080P-shenzhenstv/HD-2500k-1080P-shenzhenstv
 深圳卫视 (1080p),http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226205/index.m3u8
 深圳卫视 (1080p),http://39.134.39.39/PLTV/88888888/224/3221226199/index.m3u8
 深圳卫视 (1080p),http://39.134.115.163:8080/PLTV/88888910/224/3221225700/index.m3u8
-湖北卫视 (1080p),http://118.81.195.79:9003/hls/32/index.m3u8
 西藏卫视 (576p),http://39.134.115.163:8080/PLTV/88888910/224/3221225723/index.m3u8
 西藏卫视 (576p),http://117.169.120.140:8080/live/xizangstv/.m3u8
 西藏卫视 (576p),http://183.207.249.16/PLTV/3/224/3221225523/index.m3u8
@@ -257,7 +246,6 @@ BRTV 北京卫视,http://118.81.195.79:9003/hls/20/index.m3u8
 辽宁卫视 (576p),http://183.207.248.71/cntv/live1/liaoningstv/liaoningstv
 辽宁卫视 (576p),http://183.207.249.12/PLTV/4/224/3221225802/index.m3u8
 辽宁卫视 (576p),http://183.207.249.71/PLTV/3/224/3221225566/index.m3u8
-重庆卫视 (1080p),http://118.81.195.79:9003/hls/22/index.m3u8
 陕西卫视 (576p),http://39.134.115.163:8080/PLTV/88888910/224/3221225729/index.m3u8
 陕西卫视 (576p),http://223.110.245.139/PLTV/4/224/3221227022/index.m3u8
 陕西卫视 (540p),http://112.25.48.68/live/program/live/sxws/1300000/mnf.m3u8
@@ -267,7 +255,6 @@ BRTV 北京卫视,http://118.81.195.79:9003/hls/20/index.m3u8
 黑龙卫视 (1080p),http://223.110.245.139/PLTV/4/224/3221227492/index.m3u8
 黑龙卫视 (1080p),http://223.110.245.170/PLTV/3/224/3221227252/index.m3u8
 黑龙卫视 (720p),http://125.210.152.18:9090/live/HLJWSHD_H265.m3u8
-黑龙江卫视 (2160p),http://118.81.195.79:9003/hls/31/index.m3u8
 大湾区卫视,http://117.72.68.25:9930/migu.php?id=dwqws
 大湾区卫视,http://39.135.133.153/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226442/index.m3u8
 大湾区卫视,http://home.wwang.pw:35455/itv/2000000003000000045.m3u8?cdn=hnbblive
