@@ -849,10 +849,6 @@ https://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8
 http://183.207.248.71/gitv/live1/G_JSYS/G_JSYS
 #EXTINF:-1 group-title="影视" tvg-name="江苏影视 (576p)",江苏影视 (576p)
 http://223.110.243.134/PLTV/4/224/3221225937/index.m3u8
-#EXTINF:-1 group-title="影视" tvg-name="河北影视",河北影视
-http://121.19.134.246:808/hls/22/index.m3u8
-#EXTINF:-1 group-title="影视" tvg-name="河北影视",河北影视
-http://avd.iptviptv.site:9694/hls/552/index.m3u8
 #EXTINF:-1 group-title="影视" tvg-name="浙江 Ⅰ 绍兴影视 (720p)",浙江 Ⅰ 绍兴影视 (720p)
 http://live.shaoxing.com.cn/video/s10001-sxtv3/index.m3u8
 #EXTINF:-1 group-title="影视" tvg-name="精品电影 (1080p)",精品电影 (1080p)
@@ -905,6 +901,8 @@ http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/322
 http://[2409:8087:74F1:0021::0008]:80/270000001111/1110000323/index.m3u8?
 #EXTINF:-1 group-title="影视" tvg-name="甘肃文化影视",甘肃文化影视
 https://hls.gstv.com.cn/49048r/w1l6d5.m3u8
+#EXTINF:-1 group-title="影视" tvg-name="河北影视",河北影视
+http://avd.iptviptv.site:9694/hls/552/index.m3u8
 #EXTINF:-1 group-title="影视" tvg-name="四川影视文艺",四川影视文艺
 http://avd.iptviptv.site:9694/hls/304/index.m3u8
 #EXTINF:-1 group-title="影视" tvg-name="四川影视文艺",四川影视文艺
@@ -1025,8 +1023,6 @@ http://1.24.190.98:10080/hls/51/index.m3u8
 http://183.207.248.71/cntv/live1/donghuawg/donghuawg
 #EXTINF:-1 group-title="少儿" tvg-name="南京少儿 (720p) [Not 24/7]",南京少儿 (720p) [Not 24/7]
 https://live.nbs.cn/channels/njtv/sepd/m3u8:500k/live.m3u8
-#EXTINF:-1 group-title="少儿" tvg-name="少儿科教",少儿科教
-http://121.19.134.246:808/hls/23/index.m3u8
 #EXTINF:-1 group-title="少儿" tvg-name="山东少儿 (406p) [Geo-blocked]",山东少儿 (406p) [Geo-blocked]
 http://livealone302.iqilu.com/iqilu/sepd.m3u8
 #EXTINF:-1 group-title="少儿" tvg-name="福州电视台少儿频道 (FZTV-少儿) (1080p)",福州电视台少儿频道 (FZTV-少儿) (1080p)
@@ -1185,10 +1181,6 @@ http://74.91.26.218:82/live/cctv8hd.m3u8
 http://117.161.133.51:81/gitv_live/G_CETV-1/G_CETV-1.m3u8?p=GITV
 #EXTINF:-1 group-title="地方台" tvg-name="CETV2 (576p)",CETV2 (576p)
 http://117.161.133.51:81/gitv_live/G_CETV-2/G_CETV-2.m3u8?p=GITV
-#EXTINF:-1 group-title="地方台" tvg-name="CETV-1",CETV-1
-http://121.19.134.246:808/hls/62/index.m3u8
-#EXTINF:-1 group-title="地方台" tvg-name="CETV-1",CETV-1
-http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225652/index.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="CGTN (1080p)",CGTN (1080p)
 https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="CGTN (1080p)",CGTN (1080p)
@@ -1559,20 +1551,6 @@ http://183.207.248.71/gitv/live1/G_JSJY/G_JSJY
 http://223.110.245.151/ott.js.chinamobile.com/PLTV/3/224/3221225923/index.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="江苏综艺 (576p) [Not 24/7]",江苏综艺 (576p) [Not 24/7]
 http://183.207.248.71/gitv/live1/G_JSZY/G_JSZY
-#EXTINF:-1 group-title="地方台" tvg-name="河北公共",河北公共
-http://121.19.134.246:808/hls/24/index.m3u8
-#EXTINF:-1 group-title="地方台" tvg-name="河北公共",河北公共
-http://avd.iptviptv.site:9694/hls/554/index.m3u8
-#EXTINF:-1 group-title="地方台" tvg-name="河北农民",河北农民
-http://121.19.134.246:808/hls/25/index.m3u8
-#EXTINF:-1 group-title="地方台" tvg-name="河北农民",河北农民
-http://avd.iptviptv.site:9694/hls/555/index.m3u8
-#EXTINF:-1 group-title="地方台" tvg-name="河北经济",河北经济
-http://121.19.134.246:808/hls/20/index.m3u8
-#EXTINF:-1 group-title="地方台" tvg-name="河北都市",河北都市
-http://121.19.134.246:808/hls/21/index.m3u8
-#EXTINF:-1 group-title="地方台" tvg-name="河北都市",河北都市
-http://avd.iptviptv.site:9694/hls/551/index.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="河源综合 (540p)",河源综合 (540p)
 https://tmpstream.hyrtv.cn/xwzh/sd/live.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="浙江 Ⅰ 绍兴综合 (576p)",浙江 Ⅰ 绍兴综合 (576p)
@@ -1783,6 +1761,8 @@ https://fastlive.cctvplus.com/out/v1/2b3d8a0c805d437f9dc85b764c2ac599/index.m3u8
 https://fastlive.cctvplus.com/out/v1/8442c3bfd4c64a3984389328f6087879/index.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="China Travel (1080p)",China Travel (1080p)
 https://fastlive.cctvplus.com/out/v1/ca6f9297b7314a63959435028af287fc/index.m3u8
+#EXTINF:-1 group-title="地方台" tvg-name="Fujian Comprehensive Channel",Fujian Comprehensive Channel
+http://120.39.52.202:5140/%E7%A6%8F%E5%BB%BA%E7%BB%BC%E5%90%88
 #EXTINF:-1 group-title="地方台" tvg-name="CCTV2",CCTV2
 http://[2409:8087:5e00:24::11]:6060/200000001898/460000089800010211/
 #EXTINF:-1 group-title="地方台" tvg-name="CCTV2",CCTV2
@@ -1849,6 +1829,8 @@ http://www.lizhinas.top:8688/rtp/239.252.219.81:5140%24%E6%B1%9F%E8%A5%BFcmc3+
 http://www.lizhinas.top:8688/rtp/239.252.219.97:5140%24%E6%B1%9F%E8%A5%BFcmc3+
 #EXTINF:-1 group-title="地方台" tvg-name="卫生健康",卫生健康
 https://epg.pw/stream/fc90a505bbcefc5a9c91e5dc5e12f5b0d6f76ac5f86b55a33ee724051af2d385.m3u8
+#EXTINF:-1 group-title="地方台" tvg-name="CETV-1",CETV-1
+http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225652/index.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="CETV-2",CETV-2
 http://[2409:8087:1a0b:df::4013]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226425/index.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="CETV-4",CETV-4
@@ -2161,6 +2143,12 @@ http://[2409:8087:74F1:0021::0008]:80/270000001111/1110000328/index.m3u8?
 http://[2409:8087:74F1:0021::0008]:80/270000001111/1110000330/index.m3u8?
 #EXTINF:-1 group-title="地方台" tvg-name="河北生活",河北生活
 http://avd.iptviptv.site:9694/hls/550/index.m3u8
+#EXTINF:-1 group-title="地方台" tvg-name="河北农民",河北农民
+http://avd.iptviptv.site:9694/hls/555/index.m3u8
+#EXTINF:-1 group-title="地方台" tvg-name="河北都市",河北都市
+http://avd.iptviptv.site:9694/hls/551/index.m3u8
+#EXTINF:-1 group-title="地方台" tvg-name="河北公共",河北公共
+http://avd.iptviptv.site:9694/hls/554/index.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="iHot-爱电竞",iHot-爱电竞
 http://zteres.sn.chinamobile.com:6060/000000001000/6000000006000230630/index.m3u8?channel-id=wasusyt&Contentid=6000000006000230630&livemode=1&stbId=3
 #EXTINF:-1 group-title="地方台" tvg-name="iHot-爱谍战",iHot-爱谍战

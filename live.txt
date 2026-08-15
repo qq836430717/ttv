@@ -432,8 +432,6 @@ CCTV-6 [Geo-blocked],https://live.eac-news.com/CCTV/streams/cctv6.m3u8
 新昌休闲影视 (1080p) [Not 24/7],https://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8
 江苏影视 (576p) [Not 24/7],http://183.207.248.71/gitv/live1/G_JSYS/G_JSYS
 江苏影视 (576p),http://223.110.243.134/PLTV/4/224/3221225937/index.m3u8
-河北影视,http://121.19.134.246:808/hls/22/index.m3u8
-河北影视,http://avd.iptviptv.site:9694/hls/552/index.m3u8
 浙江 Ⅰ 绍兴影视 (720p),http://live.shaoxing.com.cn/video/s10001-sxtv3/index.m3u8
 精品电影 (1080p),http://183.207.248.71/cntv/live1/jdianying/jdianying
 西安影视 (180p) [Not 24/7],http://stream2.xiancity.cn/xatv4/playlist.m3u8
@@ -460,6 +458,7 @@ CHC影迷电影,http://58.19.38.162:9901/tsfile/live/1004_1.m3u8?key=txiptv&play
 黑龙江影视,http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226298/index.m3u8
 甘肃文化影视,http://[2409:8087:74F1:0021::0008]:80/270000001111/1110000323/index.m3u8?
 甘肃文化影视,https://hls.gstv.com.cn/49048r/w1l6d5.m3u8
+河北影视,http://avd.iptviptv.site:9694/hls/552/index.m3u8
 四川影视文艺,http://avd.iptviptv.site:9694/hls/304/index.m3u8
 四川影视文艺,http://wouu.net:9977/udp/239.93.0.166:5140
 吉林影视,http://gongzhuling.lnott.top:9999/hls/21/index.m3u8
@@ -524,7 +523,6 @@ RT Doc-Русский（俄语纪录）,https://rt-doc.rttv.com/dvr/rtdru/rtdru1
 Golden Eagle Cartoon,http://1.24.190.98:10080/hls/51/index.m3u8
 动画王国 (1080p),http://183.207.248.71/cntv/live1/donghuawg/donghuawg
 南京少儿 (720p) [Not 24/7],https://live.nbs.cn/channels/njtv/sepd/m3u8:500k/live.m3u8
-少儿科教,http://121.19.134.246:808/hls/23/index.m3u8
 山东少儿 (406p) [Geo-blocked],http://livealone302.iqilu.com/iqilu/sepd.m3u8
 福州电视台少儿频道 (FZTV-少儿) (1080p),http://live.zohi.tv/video/s10001-fztv-4/index.m3u8
 黑莓动画,http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225662/index.m3u8
@@ -606,8 +604,6 @@ CCTV-7 (720p),http://74.91.26.218:82/live/cctv7hd.m3u8
 CCTV-8 (720p),http://74.91.26.218:82/live/cctv8hd.m3u8
 CETV1 (576p),http://117.161.133.51:81/gitv_live/G_CETV-1/G_CETV-1.m3u8?p=GITV
 CETV2 (576p),http://117.161.133.51:81/gitv_live/G_CETV-2/G_CETV-2.m3u8?p=GITV
-CETV-1,http://121.19.134.246:808/hls/62/index.m3u8
-CETV-1,http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225652/index.m3u8
 CGTN (1080p),https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master.m3u8
 CGTN (1080p),https://english-livebkali.cgtn.com/live/encgtn.m3u8
 CGTN (720p),https://0472.org/hls/cgtn.m3u8
@@ -793,13 +789,6 @@ Zhejiang TV International,https://ali-m-l.cztv.com/channels/lantian/channel10/10
 江苏教育 (576p) [Not 24/7],http://183.207.248.71/gitv/live1/G_JSJY/G_JSJY
 江苏教育 (576p),http://223.110.245.151/ott.js.chinamobile.com/PLTV/3/224/3221225923/index.m3u8
 江苏综艺 (576p) [Not 24/7],http://183.207.248.71/gitv/live1/G_JSZY/G_JSZY
-河北公共,http://121.19.134.246:808/hls/24/index.m3u8
-河北公共,http://avd.iptviptv.site:9694/hls/554/index.m3u8
-河北农民,http://121.19.134.246:808/hls/25/index.m3u8
-河北农民,http://avd.iptviptv.site:9694/hls/555/index.m3u8
-河北经济,http://121.19.134.246:808/hls/20/index.m3u8
-河北都市,http://121.19.134.246:808/hls/21/index.m3u8
-河北都市,http://avd.iptviptv.site:9694/hls/551/index.m3u8
 河源综合 (540p),https://tmpstream.hyrtv.cn/xwzh/sd/live.m3u8
 浙江 Ⅰ 绍兴综合 (576p),http://live.shaoxing.com.cn/video/s10001-sxtv1/index.m3u8
 浙江公共 (1080p) [Not 24/7],https://ct-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
@@ -905,6 +894,7 @@ Zhejiang TV International,https://ali-m-l.cztv.com/channels/lantian/channel10/10
 CGTN Global Biz (1080p),https://fastlive.cctvplus.com/out/v1/2b3d8a0c805d437f9dc85b764c2ac599/index.m3u8
 Discovering China (1080p),https://fastlive.cctvplus.com/out/v1/8442c3bfd4c64a3984389328f6087879/index.m3u8
 China Travel (1080p),https://fastlive.cctvplus.com/out/v1/ca6f9297b7314a63959435028af287fc/index.m3u8
+Fujian Comprehensive Channel,http://120.39.52.202:5140/%E7%A6%8F%E5%BB%BA%E7%BB%BC%E5%90%88
 CCTV2,http://[2409:8087:5e00:24::11]:6060/200000001898/460000089800010211/
 CCTV2,http://39.135.133.177/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225588/index.m3u8
 CCTV-2,https://cctvwbcdtxyhw.liveplay.myqcloud.com/cctvwbcd/cdrmjzcctv2_1/index.m3u8
@@ -938,6 +928,7 @@ CCTV9,http://39.135.135.38/ottrrs.hl.chinamobile.com/PLTV/88888888/224/322122573
 文化精品,http://www.lizhinas.top:8688/rtp/239.252.219.81:5140%24%E6%B1%9F%E8%A5%BFcmc3+
 电视指南,http://www.lizhinas.top:8688/rtp/239.252.219.97:5140%24%E6%B1%9F%E8%A5%BFcmc3+
 卫生健康,https://epg.pw/stream/fc90a505bbcefc5a9c91e5dc5e12f5b0d6f76ac5f86b55a33ee724051af2d385.m3u8
+CETV-1,http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225652/index.m3u8
 CETV-2,http://[2409:8087:1a0b:df::4013]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226425/index.m3u8
 CETV-4,http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225783/index.m3u8
 CHC家庭影院,http://ds920.dsmynas.net:5555/rtp/226.0.2.240:9820%24%E5%B1%B1%E8%A5%BFuni2+
@@ -1094,6 +1085,9 @@ CGTN العربية,http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN6
 甘肃兰州新闻综合,http://[2409:8087:74F1:0021::0008]:80/270000001111/1110000328/index.m3u8?
 甘肃兰州文旅,http://[2409:8087:74F1:0021::0008]:80/270000001111/1110000330/index.m3u8?
 河北生活,http://avd.iptviptv.site:9694/hls/550/index.m3u8
+河北农民,http://avd.iptviptv.site:9694/hls/555/index.m3u8
+河北都市,http://avd.iptviptv.site:9694/hls/551/index.m3u8
+河北公共,http://avd.iptviptv.site:9694/hls/554/index.m3u8
 iHot-爱电竞,http://zteres.sn.chinamobile.com:6060/000000001000/6000000006000230630/index.m3u8?channel-id=wasusyt&Contentid=6000000006000230630&livemode=1&stbId=3
 iHot-爱谍战,http://zteres.sn.chinamobile.com:6060/000000001000/6000000006000070630/index.m3u8?channel-id=wasusyt&Contentid=6000000006000070630&livemode=1&stbId=3
 iHOT 爱谍战,http://39.134.182.166/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230092/index.m3u8
