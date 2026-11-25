@@ -1167,6 +1167,8 @@ http://74.91.26.218:82/live/cctv2hd.m3u8
 http://74.91.26.218:82/live/cctv3hd.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="CCTV-4 Asia (720p)",CCTV-4 Asia (720p)
 http://74.91.26.218:82/live/cctv4hd.m3u8
+#EXTINF:-1 group-title="地方台" tvg-name="CCTV-4 Europe",CCTV-4 Europe
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/cctv_4/live.livx/playlist.m3u8
 #EXTINF:-1 group-title="地方台" tvg-name="CCTV5+",CCTV5+
 http://[2409:8087:5e00:24::10]:6060/200000001898/460000089800010202/
 #EXTINF:-1 group-title="地方台" tvg-name="CCTV5+",CCTV5+
